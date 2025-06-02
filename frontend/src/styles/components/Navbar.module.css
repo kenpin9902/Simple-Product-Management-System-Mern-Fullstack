@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbarTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbarTitle a, .navbarButton a{
+    color: hsla(184, 61%, 57%);
+    transition: color 0.3s ease;
+}
+
+.navbarTitle a:hover, .navbarButton a:hover{
+    color: hsla(184, 61%, 77%);
+}
+
+.navbarButton {
+    background-color: grey;
+    border: 1px solid #307272;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
