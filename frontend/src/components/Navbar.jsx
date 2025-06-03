@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <h1 className={styles.navbarTitle}><Link to="/">Product Store</Link></h1>
-      <button className={styles.navbarButton}><Link to="/create"><FiPlusSquare />Create Product</Link></button>
+      <button className={styles.navbarButton}><Link to="/create"><span><FiPlusSquare size={30} /></span>Add Product</Link></button>
     </div>
   )
 }
