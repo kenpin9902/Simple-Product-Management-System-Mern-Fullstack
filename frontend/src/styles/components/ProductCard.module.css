@@ -1,0 +1,72 @@
+.productCardContainer {
+    background-color: hwb(0 20% 80%);
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.productCardContainer:hover {
+    scale: 1.1;
+}
+
+.productCardContainer img {
+    width:300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.productCardContainer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.productCardButtons {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.productCardButtons button {
+    flex: 1;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonEdit {
+    background-color: hsl(202, 65%, 49%);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.ButtonEdit:hover {
+    background-color: hsl(202, 65%, 59%);
+    color: rgb(7, 90, 16);
+    scale: 1.1;
+}
+
+.ButtonDelete {
+    background-color: hsl(306, 63%, 68%);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.ButtonDelete:hover {
+    background-color: hsl(306, 51%, 59%);
+    color: rgb(187, 16, 16);
+    scale: 1.1;
+}
+
+
+

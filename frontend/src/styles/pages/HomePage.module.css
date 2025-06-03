@@ -1,4 +1,24 @@
-.homePage {
-    background-color: hsl(0, 0%, 30%);
-    height: 83vh;
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.homePageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsla(184, 61%, 57%);
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.homePageProductContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }

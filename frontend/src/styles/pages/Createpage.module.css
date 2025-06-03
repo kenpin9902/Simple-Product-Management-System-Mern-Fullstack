@@ -22,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0, 0%, 40%);
+    background-color: hwb(0 20% 80%);
     padding: 2rem;
     border-radius: 5px;
     width: 80%;
@@ -47,16 +47,17 @@
     margin: 0.5rem 0;
     border: none;
     border-radius: 5px;
-    background-color: hsl(0, 0%, 20%);
-    color: hsla(184, 61%, 57%);
+    background-color: hsl(164, 56%, 57%);
+    color: hsl(202, 63%, 36%);
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .createPageFormContainer button:hover {
-    background-color: hsl(0, 0%, 30%);
-    color: rgb(47, 140, 117);
+    background-color: hsl(164, 56%, 67%);
+    color: hsl(202, 63%, 46%);
+    scale: 1.1;
 }
 
