@@ -19,6 +19,28 @@
 
 .homePageProductContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+}
+
+.EmptyProductTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(246, 39, 39);
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.EmptyProductTitle a {
+    color: hsl(138, 85%, 39%);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+.EmptyProductTitle a:hover {
+    color: hsl(138, 85%, 59%);
 }

@@ -11,11 +11,13 @@
 }
 
 .productCardContainer img {
-    width:300px;
+    display: block;
+    width: 300px;
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
     border: 1px solid #fff;
+    margin-bottom: 1rem;
 }
 
 .productCardContainer p {
