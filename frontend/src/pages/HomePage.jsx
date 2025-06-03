@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../styles/pages/HomePage.module.css'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className={styles.homePageTitle}><h1>HomePage</h1></div>
   )
 }
 
